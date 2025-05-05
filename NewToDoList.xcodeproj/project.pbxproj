@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD5E65DC2DC8234A007E7D62 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E65DB2DC8234A007E7D62 /* NewToDoView.swift */; };
+		BD5E65DE2DC82F30007E7D62 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E65DD2DC82F30007E7D62 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		BD5E65BE2DC81B0F007E7D62 /* NewToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E65C82DC81B0F007E7D62 /* NewToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E65DB2DC8234A007E7D62 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD5E65DD2DC82F30007E7D62 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		BD5E65A52DC81B0D007E7D62 = {
 			isa = PBXGroup;
 			children = (
+				BD5E65DD2DC82F30007E7D62 /* ToDoItem.swift */,
 				BD5E65DB2DC8234A007E7D62 /* NewToDoView.swift */,
 				BD5E65B02DC81B0D007E7D62 /* NewToDoList */,
 				BD5E65C12DC81B0F007E7D62 /* NewToDoListTests */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5E65DC2DC8234A007E7D62 /* NewToDoView.swift in Sources */,
+				BD5E65DE2DC82F30007E7D62 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
